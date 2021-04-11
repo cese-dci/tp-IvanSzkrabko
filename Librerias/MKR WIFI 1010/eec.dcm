@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP _WIFI_1010
+D MKR WIFI 1010
+F https://store.arduino.cc/mkr-wifi-1010
+$ENDCMP
+#
+#End Doc Library

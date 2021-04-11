@@ -1,0 +1,73 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# _WIFI_1010
+#
+DEF _WIFI_1010 ShieldMKR 0 40 Y Y 1 F N
+F0 "ShieldMKR" 0 200 50 H V L CNN
+F1 "_WIFI_1010" 0 300 50 H V L CNN
+F2 "MKR:MKR_WIFI_1010_Shield" 0 400 50 H I L CNN
+F3 "" 0 500 50 H I L CNN
+F4 "32KBytes" 0 600 50 H I L CNN "RAM size"
+F5 "No" 0 700 50 H I L CNN "automotive"
+F6 "UNK" 0 800 50 H I L CNN "category"
+F7 "ARM Cortex-M0+" 0 900 50 H I L CNN "core architecture"
+F8 "32bits" 0 1000 50 H I L CNN "data bus width"
+F9 "Integrated Circuits (ICs)" 0 1100 50 H I L CNN "device class L1"
+F10 "Embedded Processors and Controllers" 0 1200 50 H I L CNN "device class L2"
+F11 "Microcontrollers" 0 1300 50 H I L CNN "device class L3"
+F12 "ARDUINO MKR WIFI 1010" 0 1400 50 H I L CNN "digikey description"
+F13 "1050-1162-ND" 0 1500 50 H I L CNN "digikey part number"
+F14 "48MHz" 0 1600 50 H I L CNN "frequency"
+F15 "I2C,SPI,UART,I2S" 0 1700 50 H I L CNN "interface"
+F16 "Yes" 0 1800 50 H I L CNN "lead free"
+F17 "7eb282d1527b7afb" 0 1900 50 H I L CNN "library id"
+F18 "Arduino" 0 2000 50 H I L CNN "manufacturer"
+F19 "5V" 0 2100 50 H I L CNN "max supply voltage"
+F20 "256KBytes" 0 2200 50 H I L CNN "memory size"
+F21 "FLASH" 0 2300 50 H I L CNN "memory type"
+F22 "3.3V" 0 2400 50 H I L CNN "min supply voltage"
+F23 "782-ABX00023" 0 2500 50 H I L CNN "mouser part number"
+F24 "1" 0 2600 50 H I L CNN "number of A/D converters"
+F25 "7" 0 2700 50 H I L CNN "number of ADC channels"
+F26 "8" 0 2800 50 H I L CNN "number of I/Os"
+F27 "1" 0 2900 50 H I L CNN "number of I2C channels"
+F28 "12" 0 3000 50 H I L CNN "number of PWM channels"
+F29 "1" 0 3100 50 H I L CNN "number of SPI channels"
+F30 "1" 0 3200 50 H I L CNN "number of UART channels"
+F31 "EVALUATION_BOARD" 0 3300 50 H I L CNN "package"
+F32 "Yes" 0 3400 50 H I L CNN "rohs"
+DRAW
+S 0 50 600 -1400 1 1 0 N
+X AREF 1 -100 0 100 R 40 40 1 1 P
+X D1 10 -100 -900 100 R 40 40 1 1 P
+X D2 11 -100 -1000 100 R 40 40 1 1 P
+X D3 12 -100 -1100 100 R 40 40 1 1 P
+X D4 13 -100 -1200 100 R 40 40 1 1 P
+X D5 14 -100 -1300 100 R 40 40 1 1 P
+X D6 15 700 -1300 100 L 40 40 1 1 P
+X D7 16 700 -1200 100 L 40 40 1 1 P
+X D8/MOSI 17 700 -1100 100 L 40 40 1 1 P
+X D9/SCK 18 700 -1000 100 L 40 40 1 1 P
+X D10/MISO 19 700 -900 100 L 40 40 1 1 P
+X A0/DAC0 2 -100 -100 100 R 40 40 1 1 P
+X D11/SDA 20 700 -800 100 L 40 40 1 1 P
+X D12/SCL 21 700 -700 100 L 40 40 1 1 P
+X D13/RX 22 700 -600 100 L 40 40 1 1 P
+X D14/TX 23 700 -500 100 L 40 40 1 1 P
+X ~RESET~ 24 700 -400 100 L 40 40 1 1 P
+X GND 25 700 -300 100 L 40 40 1 1 P
+X +3V3 26 700 -200 100 L 40 40 1 1 P
+X VIN 27 700 -100 100 L 40 40 1 1 P
+X +5V 28 700 0 100 L 40 40 1 1 P
+X A1 3 -100 -200 100 R 40 40 1 1 P
+X A2 4 -100 -300 100 R 40 40 1 1 P
+X A3 5 -100 -400 100 R 40 40 1 1 P
+X A4 6 -100 -500 100 R 40 40 1 1 P
+X A5 7 -100 -600 100 R 40 40 1 1 P
+X A6 8 -100 -700 100 R 40 40 1 1 P
+X D0 9 -100 -800 100 R 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

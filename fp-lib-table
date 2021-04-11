@@ -1,4 +1,6 @@
 (fp_lib_table
   (lib (name MAX3157)(type KiCad)(uri ${KIPRJMOD}/Librerias/MAX3157)(options "")(descr ""))
   (lib (name DO_214AC)(type KiCad)(uri ${KIPRJMOD}/Librerias/DO_214AC)(options "")(descr ""))
+  (lib (name L_15uh)(type KiCad)(uri C:/Users/Admin/source/repos/TP_DCI/Librerias/L_15uh)(options "")(descr ""))
+  (lib (name MKR)(type KiCad)(uri "C:/Users/Admin/source/repos/TP_DCI/Librerias/MKR WIFI 1010/eec.pretty")(options "")(descr ""))
 )

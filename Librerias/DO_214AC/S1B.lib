@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# S1B
+#
+DEF S1B D 0 40 N N 1 L N
+F0 "D" -70 -110 50 H V L BNN
+F1 "S1B" 0 0 50 H I L BNN
+F2 "DO-214BA" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "S1BFSCT-ND" 0 0 50 H I L BNN "DIGIKEY#"
+F5 "S1B" 0 0 50 H I L BNN "MANF#"
+DRAW
+P 2 0 0 10 0 50 0 -50 N
+P 2 0 0 10 0 -50 100 0 N
+P 2 0 0 10 100 0 0 50 N
+P 2 0 0 10 100 50 100 0 N
+P 2 0 0 10 100 0 100 -50 N
+X ~ A -100 0 100 R 40 40 0 0 B 
+X ~ C 200 0 100 L 40 40 0 0 B 
+ENDDRAW
+ENDDEF
+#
+# End Library
