@@ -20,7 +20,7 @@ P 3850 5850
 F 0 "U2" H 3850 6317 50  0000 C CNN
 F 1 "TPS54232" H 3850 6226 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3850 5850 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tps54233.pdf" H 3850 5800 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/tps54232.pdf" H 3850 5800 50  0001 C CNN
 	1    3850 5850
 	1    0    0    -1  
 $EndComp
@@ -420,7 +420,7 @@ P 4800 6000
 F 0 "D1" V 4754 6080 50  0000 L CNN
 F 1 "SS24FL" V 4845 6080 50  0000 L CNN
 F 2 "DO_214AC:DO-214BA" H 4800 6000 50  0001 C CNN
-F 3 "~" H 4800 6000 50  0001 C CNN
+F 3 "https://www.onsemi.com/pdf/datasheet/ss26fl-d.pdf" H 4800 6000 50  0001 C CNN
 	1    4800 6000
 	0    1    1    0   
 $EndComp
@@ -858,7 +858,7 @@ P 5750 2200
 F 0 "U1" H 5750 3270 50  0000 C CNN
 F 1 "MAX3157CAI+" H 5750 3179 50  0000 C CNN
 F 2 "MAX3157:SOP65P777X199-28N" H 5750 2200 50  0001 L BNN
-F 3 "" H 5750 2200 50  0001 L BNN
+F 3 "https://pdf1.alldatasheet.com/datasheet-pdf/view/73117/MAXIM/MAX3157CAI/+W3Q28UIYUHMbOEbYtw.lKy+/datasheet.pdf" H 5750 2200 50  0001 L BNN
 	1    5750 2200
 	1    0    0    -1  
 $EndComp
