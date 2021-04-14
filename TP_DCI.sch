@@ -1047,4 +1047,6 @@ Text Notes 9600 3650 0    50   ~ 0
 Selectora:
 Text Notes 5350 3700 0    50   ~ 0
 Bornera de conexion:
+Text Notes 600  7700 0    50   Italic 0
+Creative Commons Attribution-ShareAlike 4.0 International License
 $EndSCHEMATC
