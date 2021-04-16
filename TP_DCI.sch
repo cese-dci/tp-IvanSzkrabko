@@ -184,7 +184,7 @@ U 1 1 605DEAD2
 P 4500 5650
 F 0 "C10" V 4752 5650 50  0000 C CNN
 F 1 "100n" V 4661 5650 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 4538 5500 50  0001 C CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-1608-08_AVX-J" H 4538 5500 50  0001 C CNN
 F 3 "~" H 4500 5650 50  0001 C CNN
 	1    4500 5650
 	0    -1   -1   0   
@@ -195,7 +195,7 @@ U 1 1 605DEAD8
 P 6050 5800
 F 0 "C11" H 6165 5846 50  0000 L CNN
 F 1 "10u" H 6165 5755 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm" H 6088 5650 50  0001 C CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-1608-08_AVX-J" H 6088 5650 50  0001 C CNN
 F 3 "~" H 6050 5800 50  0001 C CNN
 	1    6050 5800
 	1    0    0    -1  
@@ -228,7 +228,7 @@ U 1 1 605DEAEA
 P 2250 6300
 F 0 "C8" H 2365 6346 50  0000 L CNN
 F 1 "110p" H 2365 6255 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 2288 6150 50  0001 C CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-1608-08_AVX-J" H 2288 6150 50  0001 C CNN
 F 3 "~" H 2250 6300 50  0001 C CNN
 	1    2250 6300
 	1    0    0    -1  
@@ -250,7 +250,7 @@ U 1 1 6061A285
 P 1950 5900
 F 0 "C9" H 2065 5946 50  0000 L CNN
 F 1 "10u" H 2065 5855 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm" H 1988 5750 50  0001 C CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-1608-08_AVX-J" H 1988 5750 50  0001 C CNN
 F 3 "~" H 1950 5900 50  0001 C CNN
 	1    1950 5900
 	1    0    0    -1  
@@ -742,17 +742,17 @@ Text Label 6450 2600 0    50   ~ 0
 Z
 Text Label 6450 2700 0    50   ~ 0
 ISOGND
-Text Label 5500 3900 2    50   ~ 0
-ISOGND
-Text Label 5500 4000 2    50   ~ 0
-A
-Text Label 5500 4100 2    50   ~ 0
-B
-Text Label 5500 4200 2    50   ~ 0
-Y
-Text Label 5500 4300 2    50   ~ 0
-Z
 Text Label 5500 4400 2    50   ~ 0
+ISOGND
+Text Label 5500 4300 2    50   ~ 0
+A
+Text Label 5500 4200 2    50   ~ 0
+B
+Text Label 5500 4100 2    50   ~ 0
+Y
+Text Label 5500 4000 2    50   ~ 0
+Z
+Text Label 5500 3900 2    50   ~ 0
 ISOVCC
 Text Label 9150 4100 2    50   ~ 0
 B
@@ -802,16 +802,16 @@ Connection ~ 6550 1300
 $Comp
 L power:PWR_FLAG #FLG0104
 U 1 1 607D8A39
-P 5100 4400
-F 0 "#FLG0104" H 5100 4475 50  0001 C CNN
-F 1 "PWR_FLAG" H 5100 4573 50  0000 C CNN
-F 2 "" H 5100 4400 50  0001 C CNN
-F 3 "~" H 5100 4400 50  0001 C CNN
-	1    5100 4400
+P 5100 3900
+F 0 "#FLG0104" H 5100 3975 50  0001 C CNN
+F 1 "PWR_FLAG" H 5100 4073 50  0000 C CNN
+F 2 "" H 5100 3900 50  0001 C CNN
+F 3 "~" H 5100 3900 50  0001 C CNN
+	1    5100 3900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5100 4400 5500 4400
+	5100 3900 5500 3900
 $Comp
 L power:PWR_FLAG #FLG0105
 U 1 1 607DB9CE
@@ -1045,7 +1045,7 @@ Text Notes 1650 3700 0    50   ~ 0
 Jumpers:
 Text Notes 9600 3650 0    50   ~ 0
 Selectora:
-Text Notes 5350 3700 0    50   ~ 0
+Text Notes 5550 3750 0    50   ~ 0
 Bornera de conexion:
 Text Notes 600  7700 0    50   Italic 0
 Creative Commons Attribution-ShareAlike 4.0 International License
