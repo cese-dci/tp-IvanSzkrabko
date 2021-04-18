@@ -27,12 +27,12 @@ $EndComp
 $Comp
 L Switch:SW_DIP_x03 SW1
 U 1 1 605D3E29
-P 9800 4300
-F 0 "SW1" H 9800 4767 50  0000 C CNN
-F 1 "SW_DIP_x03" H 9800 4676 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_DIP_SPSTx03_Slide_6.7x9.18mm_W7.62mm_P2.54mm_LowProfile" H 9800 4300 50  0001 C CNN
-F 3 "~" H 9800 4300 50  0001 C CNN
-	1    9800 4300
+P 9350 4400
+F 0 "SW1" H 9350 4867 50  0000 C CNN
+F 1 "SW_DIP_x03" H 9350 4776 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx03_Slide_6.7x9.18mm_W7.62mm_P2.54mm_LowProfile" H 9350 4400 50  0001 C CNN
+F 3 "~" H 9350 4400 50  0001 C CNN
+	1    9350 4400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -45,17 +45,6 @@ F 2 "Resistor_SMD:R_0805_2012Metric" V 2680 6200 50  0001 C CNN
 F 3 "~" H 2750 6200 50  0001 C CNN
 	1    2750 6200
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R1
-U 1 1 605D7B9F
-P 9300 4100
-F 0 "R1" V 9507 4100 50  0000 C CNN
-F 1 "120" V 9416 4100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 9230 4100 50  0001 C CNN
-F 3 "~" H 9300 4100 50  0001 C CNN
-	1    9300 4100
-	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R8
@@ -140,7 +129,7 @@ U 1 1 605DC00B
 P 7300 1400
 F 0 "C3" V 7552 1400 50  0000 C CNN
 F 1 "1u" V 7461 1400 50  0000 C CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-1608-08_AVX-J" H 7338 1250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7338 1250 50  0001 C CNN
 F 3 "~" H 7300 1400 50  0001 C CNN
 	1    7300 1400
 	0    -1   -1   0   
@@ -195,7 +184,7 @@ U 1 1 605DEAD8
 P 6050 5800
 F 0 "C11" H 6165 5846 50  0000 L CNN
 F 1 "10u" H 6165 5755 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-1608-08_AVX-J" H 6088 5650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6088 5650 50  0001 C CNN
 F 3 "~" H 6050 5800 50  0001 C CNN
 	1    6050 5800
 	1    0    0    -1  
@@ -236,12 +225,12 @@ $EndComp
 $Comp
 L Device:R R11
 U 1 1 605FBEDB
-P 8800 4200
-F 0 "R11" V 8593 4200 50  0000 C CNN
-F 1 "10k2" V 8684 4200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 8730 4200 50  0001 C CNN
-F 3 "~" H 8800 4200 50  0001 C CNN
-	1    8800 4200
+P 8675 4200
+F 0 "R11" V 8468 4200 50  0000 C CNN
+F 1 "10k2" V 8559 4200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8605 4200 50  0001 C CNN
+F 3 "~" H 8675 4200 50  0001 C CNN
+	1    8675 4200
 	0    1    1    0   
 $EndComp
 $Comp
@@ -250,7 +239,7 @@ U 1 1 6061A285
 P 1950 5900
 F 0 "C9" H 2065 5946 50  0000 L CNN
 F 1 "10u" H 2065 5855 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-1608-08_AVX-J" H 1988 5750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1988 5750 50  0001 C CNN
 F 3 "~" H 1950 5900 50  0001 C CNN
 	1    1950 5900
 	1    0    0    -1  
@@ -339,10 +328,6 @@ F 3 "" H 7150 2650 50  0001 C CNN
 	1    7150 2650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9500 4100 9450 4100
-Wire Wire Line
-	8950 4200 9050 4200
 Wire Wire Line
 	6450 1500 6550 1500
 Wire Wire Line
@@ -540,8 +525,6 @@ Wire Wire Line
 	2750 6350 2750 6450
 Wire Wire Line
 	1950 5650 1950 5750
-Wire Wire Line
-	1400 5650 1950 5650
 Connection ~ 1950 5650
 $Comp
 L power:GND #PWR0116
@@ -612,13 +595,13 @@ Wire Wire Line
 $Comp
 L Connector:Screw_Terminal_01x02 X2
 U 1 1 607D2105
-P 1200 5750
-F 0 "X2" H 1150 5400 50  0000 L CNN
-F 1 "Screw_Terminal_01x02" H 750 5500 50  0000 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 1200 5750 50  0001 C CNN
-F 3 "~" H 1200 5750 50  0001 C CNN
-	1    1200 5750
-	-1   0    0    1   
+P 1200 5650
+F 0 "X2" H 1300 5600 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 900 5800 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 1200 5650 50  0001 C CNN
+F 3 "~" H 1200 5650 50  0001 C CNN
+	1    1200 5650
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector:Screw_Terminal_01x06 X1
@@ -742,29 +725,29 @@ Text Label 6450 2600 0    50   ~ 0
 Z
 Text Label 6450 2700 0    50   ~ 0
 ISOGND
-Text Label 5500 4400 2    50   ~ 0
-ISOGND
-Text Label 5500 4300 2    50   ~ 0
-A
-Text Label 5500 4200 2    50   ~ 0
-B
-Text Label 5500 4100 2    50   ~ 0
-Y
 Text Label 5500 4000 2    50   ~ 0
+ISOGND
+Text Label 5500 4200 2    50   ~ 0
+A
+Text Label 5500 4300 2    50   ~ 0
+B
+Text Label 5500 4400 2    50   ~ 0
+Y
+Text Label 5500 4100 2    50   ~ 0
 Z
 Text Label 5500 3900 2    50   ~ 0
 ISOVCC
-Text Label 9150 4100 2    50   ~ 0
+Text Label 10400 4300 0    50   ~ 0
 B
-Text Label 9050 4500 2    50   ~ 0
+Text Label 8825 4350 2    50   ~ 0
 H_#F
-Text Label 10100 4100 0    50   ~ 0
+Text Label 9050 4300 2    50   ~ 0
 A
-Text Label 10100 4200 0    50   ~ 0
+Text Label 9650 4200 0    50   ~ 0
 ISOGND
-Text Label 10100 4300 0    50   ~ 0
+Text Label 9650 4400 0    50   ~ 0
 Z
-Text Label 8050 4300 2    50   ~ 0
+Text Label 7950 4400 2    50   ~ 0
 Y
 Text Label 5550 6050 0    50   ~ 0
 U2_FB
@@ -937,24 +920,17 @@ Text Label 2100 2800 0    50   ~ 0
 6
 Text Label 2100 2700 0    50   ~ 0
 7
-Wire Wire Line
-	9050 4500 9050 4200
-Connection ~ 9050 4200
-Wire Wire Line
-	9050 4200 9500 4200
-Text Label 8650 4200 2    50   ~ 0
+Text Label 8525 4200 2    50   ~ 0
 ISOVCC
-Wire Wire Line
-	8350 4300 9500 4300
 $Comp
 L Device:R R2
 U 1 1 605D77BB
-P 8200 4300
-F 0 "R2" V 8407 4300 50  0000 C CNN
-F 1 "120" V 8316 4300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 8130 4300 50  0001 C CNN
-F 3 "~" H 8200 4300 50  0001 C CNN
-	1    8200 4300
+P 8100 4400
+F 0 "R2" V 8307 4400 50  0000 C CNN
+F 1 "120" V 8216 4400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8030 4400 50  0001 C CNN
+F 3 "~" H 8100 4400 50  0001 C CNN
+	1    8100 4400
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -997,8 +973,6 @@ F 3 "~" H 10700 1500 50  0001 C CNN
 	1    10700 1500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1400 5750 1500 5750
 Wire Wire Line
 	1950 5650 3450 5650
 Connection ~ 6050 5650
@@ -1043,10 +1017,80 @@ Wire Wire Line
 	2300 1600 2300 1550
 Text Notes 1650 3700 0    50   ~ 0
 Jumpers:
-Text Notes 9600 3650 0    50   ~ 0
+Text Notes 9150 3750 0    50   ~ 0
 Selectora:
 Text Notes 5550 3750 0    50   ~ 0
 Bornera de conexion:
 Text Notes 600  7700 0    50   Italic 0
 Creative Commons Attribution-ShareAlike 4.0 International License
+Wire Wire Line
+	1400 5750 1500 5750
+Wire Wire Line
+	1400 5650 1950 5650
+Wire Wire Line
+	8825 4350 8825 4200
+Connection ~ 8825 4200
+Wire Wire Line
+	8825 4200 9050 4200
+Wire Wire Line
+	10300 4300 10400 4300
+Wire Wire Line
+	9650 4300 10000 4300
+$Comp
+L Device:R R1
+U 1 1 605D7B9F
+P 10150 4300
+F 0 "R1" V 10357 4300 50  0000 C CNN
+F 1 "120" V 10266 4300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 10080 4300 50  0001 C CNN
+F 3 "~" H 10150 4300 50  0001 C CNN
+	1    10150 4300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8250 4400 9050 4400
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 6084B85C
+P 9750 750
+F 0 "H1" H 9850 796 50  0000 L CNN
+F 1 "MountingHole" H 9850 705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 9750 750 50  0001 C CNN
+F 3 "~" H 9750 750 50  0001 C CNN
+	1    9750 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 6084C43C
+P 9750 1000
+F 0 "H2" H 9850 1046 50  0000 L CNN
+F 1 "MountingHole" H 9850 955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 9750 1000 50  0001 C CNN
+F 3 "~" H 9750 1000 50  0001 C CNN
+	1    9750 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 6084CC49
+P 9750 1250
+F 0 "H3" H 9850 1296 50  0000 L CNN
+F 1 "MountingHole" H 9850 1205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 9750 1250 50  0001 C CNN
+F 3 "~" H 9750 1250 50  0001 C CNN
+	1    9750 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 6084D8AE
+P 9750 1500
+F 0 "H4" H 9850 1546 50  0000 L CNN
+F 1 "MountingHole" H 9850 1455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 9750 1500 50  0001 C CNN
+F 3 "~" H 9750 1500 50  0001 C CNN
+	1    9750 1500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
