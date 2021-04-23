@@ -3,4 +3,5 @@
   (lib (name DO_214AC)(type KiCad)(uri ${KIPRJMOD}/Librerias/DO_214AC)(options "")(descr ""))
   (lib (name L_15uh)(type KiCad)(uri ${KIPRJMOD}/Librerias/L_15uh)(options "")(descr ""))
   (lib (name MKR)(type KiCad)(uri "${KIPRJMOD}/Librerias/MKR WIFI 1010/eec.pretty")(options "")(descr ""))
+  (lib (name TP_DCI)(type KiCad)(uri ${KIPRJMOD}/Librerias/TP_DCI.pretty)(options "")(descr ""))
 )

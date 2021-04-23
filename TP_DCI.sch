@@ -9,7 +9,7 @@ Date "2021-03-22"
 Rev "A"
 Comp "CESE UBA"
 Comment1 "Ivan Szkrabko"
-Comment2 ""
+Comment2 "Creative Commons Attribution-ShareAlike 4.0 International License"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -21,6 +21,7 @@ F 0 "U2" H 3850 6317 50  0000 C CNN
 F 1 "TPS54232" H 3850 6226 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3850 5850 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/tps54232.pdf" H 3850 5800 50  0001 C CNN
+F 4 "595-TPS54232D" H 3850 5850 50  0001 C CNN "Mouser"
 	1    3850 5850
 	1    0    0    -1  
 $EndComp
@@ -31,7 +32,8 @@ P 9350 4400
 F 0 "SW1" H 9350 4867 50  0000 C CNN
 F 1 "SW_DIP_x03" H 9350 4776 50  0000 C CNN
 F 2 "Button_Switch_THT:SW_DIP_SPSTx03_Slide_6.7x9.18mm_W7.62mm_P2.54mm_LowProfile" H 9350 4400 50  0001 C CNN
-F 3 "~" H 9350 4400 50  0001 C CNN
+F 3 "https://ar.mouser.com/datasheet/2/670/ds04_254-1777904.pdf" H 9350 4400 50  0001 C CNN
+F 4 "490-DS01C-254-S-03BE" H 9350 4400 50  0001 C CNN "Mouser"
 	1    9350 4400
 	1    0    0    -1  
 $EndComp
@@ -159,12 +161,12 @@ $EndComp
 $Comp
 L Device:C C2
 U 1 1 605DCB3D
-P 7150 2450
-F 0 "C2" V 6898 2450 50  0000 C CNN
-F 1 "10n" V 6989 2450 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 7188 2300 50  0001 C CNN
-F 3 "~" H 7150 2450 50  0001 C CNN
-	1    7150 2450
+P 7450 2450
+F 0 "C2" V 7198 2450 50  0000 C CNN
+F 1 "10n" V 7289 2450 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7488 2300 50  0001 C CNN
+F 3 "~" H 7450 2450 50  0001 C CNN
+	1    7450 2450
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -181,12 +183,12 @@ $EndComp
 $Comp
 L Device:C C11
 U 1 1 605DEAD8
-P 6050 5800
-F 0 "C11" H 6165 5846 50  0000 L CNN
-F 1 "10u" H 6165 5755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 6088 5650 50  0001 C CNN
-F 3 "~" H 6050 5800 50  0001 C CNN
-	1    6050 5800
+P 6050 5875
+F 0 "C11" H 6165 5921 50  0000 L CNN
+F 1 "10u" H 6165 5830 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6088 5725 50  0001 C CNN
+F 3 "~" H 6050 5875 50  0001 C CNN
+	1    6050 5875
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -251,19 +253,20 @@ P 5100 5650
 F 0 "L1" V 5290 5650 50  0000 C CNN
 F 1 "15uH" V 5199 5650 50  0000 C CNN
 F 2 "L_15uh:IND_#A921CY-150M=P3" H 5100 5650 50  0001 C CNN
-F 3 "~" H 5100 5650 50  0001 C CNN
+F 3 "https://ar.mouser.com/datasheet/2/445/7447707150-1901149.pdf" H 5100 5650 50  0001 C CNN
+F 4 " 710-7447707150 " V 5100 5650 50  0001 C CNN "Mouser"
 	1    5100 5650
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+3V3 #PWR03
 U 1 1 6065806D
-P 2500 1700
-F 0 "#PWR03" H 2500 1550 50  0001 C CNN
-F 1 "+3V3" H 2500 1850 50  0000 C CNN
-F 2 "" H 2500 1700 50  0001 C CNN
-F 3 "" H 2500 1700 50  0001 C CNN
-	1    2500 1700
+P 2675 1650
+F 0 "#PWR03" H 2675 1500 50  0001 C CNN
+F 1 "+3V3" H 2675 1800 50  0000 C CNN
+F 2 "" H 2675 1650 50  0001 C CNN
+F 3 "" H 2675 1650 50  0001 C CNN
+	1    2675 1650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -316,16 +319,16 @@ Wire Wire Line
 Wire Wire Line
 	7150 2200 6450 2200
 Wire Wire Line
-	6450 2300 7150 2300
+	6450 2300 6825 2300
 $Comp
 L power:GND #PWR0102
 U 1 1 606F44E7
-P 7150 2650
-F 0 "#PWR0102" H 7150 2400 50  0001 C CNN
-F 1 "GND" H 7155 2477 50  0000 C CNN
-F 2 "" H 7150 2650 50  0001 C CNN
-F 3 "" H 7150 2650 50  0001 C CNN
-	1    7150 2650
+P 7450 2650
+F 0 "#PWR0102" H 7450 2400 50  0001 C CNN
+F 1 "GND" H 7455 2477 50  0000 C CNN
+F 2 "" H 7450 2650 50  0001 C CNN
+F 3 "" H 7450 2650 50  0001 C CNN
+	1    7450 2650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -406,6 +409,7 @@ F 0 "D1" V 4754 6080 50  0000 L CNN
 F 1 "SS24FL" V 4845 6080 50  0000 L CNN
 F 2 "DO_214AC:DO-214BA" H 4800 6000 50  0001 C CNN
 F 3 "https://www.onsemi.com/pdf/datasheet/ss26fl-d.pdf" H 4800 6000 50  0001 C CNN
+F 4 " 512-SS24FL" V 4800 6000 50  0001 C CNN "Mouser"
 	1    4800 6000
 	0    1    1    0   
 $EndComp
@@ -429,22 +433,17 @@ F 3 "" H 4800 6200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5250 5650 5450 5650
-Wire Wire Line
-	6050 5650 5450 5650
-Connection ~ 5450 5650
 $Comp
 L power:GND #PWR0110
 U 1 1 60681918
-P 6050 5950
-F 0 "#PWR0110" H 6050 5700 50  0001 C CNN
-F 1 "GND" H 6055 5777 50  0000 C CNN
-F 2 "" H 6050 5950 50  0001 C CNN
-F 3 "" H 6050 5950 50  0001 C CNN
-	1    6050 5950
+P 6050 6100
+F 0 "#PWR0110" H 6050 5850 50  0001 C CNN
+F 1 "GND" H 6055 5927 50  0000 C CNN
+F 2 "" H 6050 6100 50  0001 C CNN
+F 3 "" H 6050 6100 50  0001 C CNN
+	1    6050 6100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5450 5950 5450 6050
 Wire Wire Line
 	4250 5850 4800 5850
 Connection ~ 4800 5850
@@ -459,11 +458,6 @@ F 3 "" H 5450 6550 50  0001 C CNN
 	1    5450 6550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5550 6050 5450 6050
-Connection ~ 5450 6050
-Wire Wire Line
-	5450 6050 5450 6150
 $Comp
 L power:GND #PWR0112
 U 1 1 606917C6
@@ -555,12 +549,12 @@ $EndComp
 $Comp
 L power:VS #PWR0118
 U 1 1 606F9561
-P 2300 1550
-F 0 "#PWR0118" H 2100 1400 50  0001 C CNN
-F 1 "VS" H 2300 1700 50  0000 C CNN
-F 2 "" H 2300 1550 50  0001 C CNN
-F 3 "" H 2300 1550 50  0001 C CNN
-	1    2300 1550
+P 2375 1550
+F 0 "#PWR0118" H 2175 1400 50  0001 C CNN
+F 1 "VS" H 2375 1700 50  0000 C CNN
+F 2 "" H 2375 1550 50  0001 C CNN
+F 3 "" H 2375 1550 50  0001 C CNN
+	1    2375 1550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -685,11 +679,11 @@ F 3 "" H 3850 6300 50  0001 C CNN
 	1    3850 6300
 	1    0    0    -1  
 $EndComp
-Text Label 2100 2000 0    50   ~ 0
+Text Label 2150 2000 0    50   ~ 0
 TX
-Text Label 2100 2100 0    50   ~ 0
+Text Label 2150 2100 0    50   ~ 0
 RX
-Text Label 1300 2200 2    50   ~ 0
+Text Label 1250 2200 2    50   ~ 0
 A6
 Text Label 4150 1700 2    50   ~ 0
 A5_jmp
@@ -697,43 +691,33 @@ Text Label 3800 2000 2    50   ~ 0
 A6_jmp
 Text Label 4350 2300 2    50   ~ 0
 RX
-Text Label 5050 2100 2    50   ~ 0
+Text Label 5000 2100 2    50   ~ 0
 TX
-Text Label 5050 2200 2    50   ~ 0
+Text Label 5000 2200 2    50   ~ 0
 H_#F
-Text Label 5050 2400 2    50   ~ 0
+Text Label 5000 2400 2    50   ~ 0
 6_jmp
-Text Label 5050 2500 2    50   ~ 0
+Text Label 5000 2500 2    50   ~ 0
 7_jmp
 Text Label 7100 1000 0    50   ~ 0
 ISOVCC
-Text Label 7450 1400 0    50   ~ 0
-ISOGND
-Text Label 6450 1700 0    50   ~ 0
+Text Label 6500 1700 0    50   ~ 0
 A
-Text Label 6450 1800 0    50   ~ 0
-ISOGND
-Text Label 6450 1900 0    50   ~ 0
+Text Label 6500 1900 0    50   ~ 0
 B
-Text Label 6450 2000 0    50   ~ 0
-ISOGND
-Text Label 6450 2500 0    50   ~ 0
-ISOGND
-Text Label 6450 2400 0    50   ~ 0
+Text Label 6500 2400 0    50   ~ 0
 Y
-Text Label 6450 2600 0    50   ~ 0
+Text Label 6500 2600 0    50   ~ 0
 Z
-Text Label 6450 2700 0    50   ~ 0
+Text Label 5450 4000 2    50   ~ 0
 ISOGND
-Text Label 5500 4000 2    50   ~ 0
-ISOGND
-Text Label 5500 4200 2    50   ~ 0
+Text Label 5450 4200 2    50   ~ 0
 A
-Text Label 5500 4300 2    50   ~ 0
+Text Label 5450 4300 2    50   ~ 0
 B
-Text Label 5500 4400 2    50   ~ 0
+Text Label 5450 4400 2    50   ~ 0
 Y
-Text Label 5500 4100 2    50   ~ 0
+Text Label 5450 4100 2    50   ~ 0
 Z
 Text Label 5500 3900 2    50   ~ 0
 ISOVCC
@@ -743,45 +727,25 @@ Text Label 8825 4350 2    50   ~ 0
 H_#F
 Text Label 9050 4300 2    50   ~ 0
 A
-Text Label 9650 4200 0    50   ~ 0
+Text Label 9700 4200 0    50   ~ 0
 ISOGND
-Text Label 9650 4400 0    50   ~ 0
+Text Label 9700 4400 0    50   ~ 0
 Z
-Text Label 7950 4400 2    50   ~ 0
+Text Label 7900 4400 2    50   ~ 0
 Y
-Text Label 5550 6050 0    50   ~ 0
-U2_FB
-Text Label 4250 6050 0    50   ~ 0
-U2_FB
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 607C99CB
-P 3950 1300
-F 0 "#FLG0102" H 3950 1375 50  0001 C CNN
-F 1 "PWR_FLAG" H 3950 1473 50  0000 C CNN
-F 2 "" H 3950 1300 50  0001 C CNN
-F 3 "~" H 3950 1300 50  0001 C CNN
-	1    3950 1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:PWR_FLAG #FLG0103
-U 1 1 607CE6B8
-P 6750 1200
-F 0 "#FLG0103" H 6750 1275 50  0001 C CNN
-F 1 "PWR_FLAG" H 6750 1373 50  0000 C CNN
-F 2 "" H 6750 1200 50  0001 C CNN
-F 3 "~" H 6750 1200 50  0001 C CNN
-	1    6750 1200
+P 2850 1575
+F 0 "#FLG0102" H 2850 1650 50  0001 C CNN
+F 1 "PWR_FLAG" H 2850 1748 50  0000 C CNN
+F 2 "" H 2850 1575 50  0001 C CNN
+F 3 "~" H 2850 1575 50  0001 C CNN
+	1    2850 1575
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	6450 1400 7100 1400
-Wire Wire Line
-	6750 1200 6750 1300
-Wire Wire Line
-	6750 1300 6550 1300
-Connection ~ 6550 1300
 $Comp
 L power:PWR_FLAG #FLG0104
 U 1 1 607D8A39
@@ -795,34 +759,23 @@ F 3 "~" H 5100 3900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5100 3900 5500 3900
-$Comp
-L power:PWR_FLAG #FLG0105
-U 1 1 607DB9CE
-P 6300 5650
-F 0 "#FLG0105" H 6300 5725 50  0001 C CNN
-F 1 "PWR_FLAG" H 6300 5823 50  0000 C CNN
-F 2 "" H 6300 5650 50  0001 C CNN
-F 3 "~" H 6300 5650 50  0001 C CNN
-	1    6300 5650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5450 6450 5450 6550
-Text Label 1150 4100 2    50   ~ 0
+Text Label 1100 4100 2    50   ~ 0
 A5
-Text Label 1450 4100 0    50   ~ 0
+Text Label 1500 4100 0    50   ~ 0
 A5_jmp
-Text Label 1150 4550 2    50   ~ 0
+Text Label 1100 4550 2    50   ~ 0
 A6
-Text Label 1450 4550 0    50   ~ 0
+Text Label 1500 4550 0    50   ~ 0
 A6_jmp
-Text Label 2200 4100 2    50   ~ 0
+Text Label 2150 4100 2    50   ~ 0
 7
-Text Label 2500 4100 0    50   ~ 0
+Text Label 2550 4100 0    50   ~ 0
 7_jmp
-Text Label 2200 4550 2    50   ~ 0
+Text Label 2150 4550 2    50   ~ 0
 6
-Text Label 2500 4550 0    50   ~ 0
+Text Label 2550 4550 0    50   ~ 0
 6_jmp
 Wire Wire Line
 	2750 6750 2750 6800
@@ -832,8 +785,6 @@ Wire Wire Line
 	4800 6150 4800 6200
 Wire Wire Line
 	6050 5500 6050 5650
-Wire Wire Line
-	2100 1600 2300 1600
 $Comp
 L MAX3157CAI_:MAX3157CAI+ U1
 U 1 1 60756909
@@ -842,6 +793,7 @@ F 0 "U1" H 5750 3270 50  0000 C CNN
 F 1 "MAX3157CAI+" H 5750 3179 50  0000 C CNN
 F 2 "MAX3157:SOP65P777X199-28N" H 5750 2200 50  0001 L BNN
 F 3 "https://pdf1.alldatasheet.com/datasheet-pdf/view/73117/MAXIM/MAX3157CAI/+W3Q28UIYUHMbOEbYtw.lKy+/datasheet.pdf" H 5750 2200 50  0001 L BNN
+F 4 "700-MAX3157CAI+" H 5750 2200 50  0001 C CNN "Mouser"
 	1    5750 2200
 	1    0    0    -1  
 $EndComp
@@ -857,7 +809,7 @@ F 3 "~" H 6500 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 6500 3000
-Text Label 1300 2100 2    50   ~ 0
+Text Label 1250 2100 2    50   ~ 0
 A5
 NoConn ~ 1300 1600
 NoConn ~ 1300 1700
@@ -877,50 +829,21 @@ NoConn ~ 2100 2500
 NoConn ~ 2100 2600
 NoConn ~ 2100 1900
 $Comp
-L MKR:_WIFI_1010 Interconexion1
+L MKR:_WIFI_1010 XA1
 U 1 1 608F17CD
 P 1400 1500
-F 0 "Interconexion1" H 1700 1715 50  0000 C CNN
-F 1 "MKR1_WIFI_1010" H 1700 1624 50  0000 C CNN
+F 0 "XA1" H 1700 1600 50  0000 C CNN
+F 1 "MKR1_WIFI_1010" H 1700 1624 50  0001 C CNN
 F 2 "MKR:MKR_WIFI_1010_Shield" H 1400 1900 50  0001 L CNN
 F 3 "https://store.arduino.cc/mkr-wifi-1010" H 1400 2000 50  0001 L CNN
-F 4 "32KBytes" H 1400 2100 50  0001 L CNN "RAM size"
-F 5 "No" H 1400 2200 50  0001 L CNN "automotive"
-F 6 "UNK" H 1400 2300 50  0001 L CNN "category"
-F 7 "ARM Cortex-M0+" H 1400 2400 50  0001 L CNN "core architecture"
-F 8 "32bits" H 1400 2500 50  0001 L CNN "data bus width"
-F 9 "Integrated Circuits (ICs)" H 1400 2600 50  0001 L CNN "device class L1"
-F 10 "Embedded Processors and Controllers" H 1400 2700 50  0001 L CNN "device class L2"
-F 11 "Microcontrollers" H 1400 2800 50  0001 L CNN "device class L3"
-F 12 "ARDUINO MKR WIFI 1010" H 1400 2900 50  0001 L CNN "digikey description"
-F 13 "1050-1162-ND" H 1400 3000 50  0001 L CNN "digikey part number"
-F 14 "48MHz" H 1400 3100 50  0001 L CNN "frequency"
-F 15 "I2C,SPI,UART,I2S" H 1400 3200 50  0001 L CNN "interface"
-F 16 "Yes" H 1400 3300 50  0001 L CNN "lead free"
-F 17 "7eb282d1527b7afb" H 1400 3400 50  0001 L CNN "library id"
-F 18 "Arduino" H 1400 3500 50  0001 L CNN "manufacturer"
-F 19 "5V" H 1400 3600 50  0001 L CNN "max supply voltage"
-F 20 "256KBytes" H 1400 3700 50  0001 L CNN "memory size"
-F 21 "FLASH" H 1400 3800 50  0001 L CNN "memory type"
-F 22 "3.3V" H 1400 3900 50  0001 L CNN "min supply voltage"
-F 23 "782-ABX00023" H 1400 4000 50  0001 L CNN "mouser part number"
-F 24 "1" H 1400 4100 50  0001 L CNN "number of A/D converters"
-F 25 "7" H 1400 4200 50  0001 L CNN "number of ADC channels"
-F 26 "8" H 1400 4300 50  0001 L CNN "number of I/Os"
-F 27 "1" H 1400 4400 50  0001 L CNN "number of I2C channels"
-F 28 "12" H 1400 4500 50  0001 L CNN "number of PWM channels"
-F 29 "1" H 1400 4600 50  0001 L CNN "number of SPI channels"
-F 30 "1" H 1400 4700 50  0001 L CNN "number of UART channels"
-F 31 "EVALUATION_BOARD" H 1400 4800 50  0001 L CNN "package"
-F 32 "Yes" H 1400 4900 50  0001 L CNN "rohs"
 	1    1400 1500
 	1    0    0    -1  
 $EndComp
-Text Label 2100 2800 0    50   ~ 0
+Text Label 2150 2800 0    50   ~ 0
 6
-Text Label 2100 2700 0    50   ~ 0
+Text Label 2150 2700 0    50   ~ 0
 7
-Text Label 8525 4200 2    50   ~ 0
+Text Label 8475 4200 2    50   ~ 0
 ISOVCC
 $Comp
 L Device:R R2
@@ -934,12 +857,9 @@ F 3 "~" H 8100 4400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7150 2650 7150 2600
-Text Label 7250 2300 0    50   ~ 0
+	7450 2650 7450 2600
+Text Label 7550 2300 0    50   ~ 0
 ISOGND
-Wire Wire Line
-	7150 2300 7250 2300
-Connection ~ 7150 2300
 $Comp
 L Mechanical:Fiducial FID2
 U 1 1 6098DCFC
@@ -975,12 +895,6 @@ F 3 "~" H 10700 1500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1950 5650 3450 5650
-Connection ~ 6050 5650
-Wire Wire Line
-	6300 5650 6050 5650
-Connection ~ 4250 1300
-Wire Wire Line
-	3950 1300 4250 1300
 Wire Wire Line
 	4250 1350 4250 1300
 $Comp
@@ -994,10 +908,8 @@ F 3 "" H 4250 1300 50  0001 C CNN
 	1    4250 1300
 	1    0    0    -1  
 $EndComp
-Text Notes 1100 1050 0    50   ~ 0
+Text Notes 600  1275 0    50   ~ 0
 Conexion con placa MKR1_Wifi1010:
-Wire Wire Line
-	2500 1700 2100 1700
 Wire Wire Line
 	2150 1500 2100 1500
 $Comp
@@ -1014,7 +926,7 @@ $EndComp
 Wire Wire Line
 	2150 1400 2150 1500
 Wire Wire Line
-	2300 1600 2300 1550
+	2375 1600 2375 1550
 Text Notes 1650 3700 0    50   ~ 0
 Jumpers:
 Text Notes 9150 3750 0    50   ~ 0
@@ -1093,4 +1005,161 @@ F 3 "~" H 9750 1500 50  0001 C CNN
 	1    9750 1500
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1100 4100 1150 4100
+Wire Wire Line
+	1450 4100 1500 4100
+Wire Wire Line
+	1150 4550 1100 4550
+Wire Wire Line
+	1450 4550 1500 4550
+Wire Wire Line
+	2200 4100 2150 4100
+Wire Wire Line
+	2500 4100 2550 4100
+Wire Wire Line
+	2150 4550 2200 4550
+Wire Wire Line
+	2550 4550 2500 4550
+Wire Wire Line
+	1300 2100 1250 2100
+Wire Wire Line
+	1300 2200 1250 2200
+Wire Wire Line
+	2100 2000 2150 2000
+Wire Wire Line
+	2100 2100 2150 2100
+Wire Wire Line
+	2100 2700 2150 2700
+Wire Wire Line
+	2100 2800 2150 2800
+Wire Wire Line
+	5050 2100 5000 2100
+Wire Wire Line
+	5050 2200 5000 2200
+Wire Wire Line
+	5050 2400 5000 2400
+Wire Wire Line
+	5050 2500 5000 2500
+Wire Wire Line
+	6450 2500 6825 2500
+Wire Wire Line
+	6825 2500 6825 2300
+Connection ~ 6825 2300
+Wire Wire Line
+	6450 2700 6825 2700
+Wire Wire Line
+	6825 2700 6825 2500
+Connection ~ 6825 2500
+Wire Wire Line
+	7450 1400 7450 1800
+Connection ~ 7450 2300
+Wire Wire Line
+	7450 2300 7550 2300
+Wire Wire Line
+	6825 2300 7450 2300
+Wire Wire Line
+	6450 1800 6825 1800
+Connection ~ 7450 1800
+Wire Wire Line
+	7450 1800 7450 2300
+Wire Wire Line
+	6450 2000 6825 2000
+Wire Wire Line
+	6825 2000 6825 1800
+Connection ~ 6825 1800
+Wire Wire Line
+	6825 1800 7450 1800
+Wire Wire Line
+	6450 1700 6500 1700
+Wire Wire Line
+	6450 1900 6500 1900
+Wire Wire Line
+	6450 2400 6500 2400
+Wire Wire Line
+	6450 2600 6500 2600
+Wire Wire Line
+	5500 4000 5450 4000
+Wire Wire Line
+	5500 4100 5450 4100
+Wire Wire Line
+	5500 4200 5450 4200
+Wire Wire Line
+	5500 4300 5450 4300
+Wire Wire Line
+	5500 4400 5450 4400
+Wire Wire Line
+	8525 4200 8475 4200
+Wire Wire Line
+	7950 4400 7900 4400
+Wire Wire Line
+	9650 4400 9700 4400
+Wire Wire Line
+	9700 4200 9650 4200
+Wire Wire Line
+	2675 1650 2675 1700
+Wire Wire Line
+	5450 5650 6050 5650
+Connection ~ 5450 5650
+Connection ~ 6050 5650
+Wire Wire Line
+	6050 5650 6050 5725
+Wire Wire Line
+	6050 6100 6050 6025
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 6096C858
+P 2275 1325
+F 0 "#FLG0103" H 2275 1400 50  0001 C CNN
+F 1 "PWR_FLAG" H 2275 1498 50  0000 C CNN
+F 2 "" H 2275 1325 50  0001 C CNN
+F 3 "~" H 2275 1325 50  0001 C CNN
+	1    2275 1325
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0105
+U 1 1 6096D616
+P 2525 1475
+F 0 "#FLG0105" H 2525 1550 50  0001 C CNN
+F 1 "PWR_FLAG" H 2525 1648 50  0000 C CNN
+F 2 "" H 2525 1475 50  0001 C CNN
+F 3 "~" H 2525 1475 50  0001 C CNN
+	1    2525 1475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 1700 2675 1700
+Connection ~ 2675 1700
+Wire Wire Line
+	2675 1700 2850 1700
+Wire Wire Line
+	2850 1575 2850 1700
+Wire Wire Line
+	2525 1600 2525 1475
+Wire Wire Line
+	2100 1600 2375 1600
+Connection ~ 2375 1600
+Wire Wire Line
+	2375 1600 2525 1600
+Wire Wire Line
+	2275 1325 2275 1500
+Wire Wire Line
+	2275 1500 2150 1500
+Connection ~ 2150 1500
+Wire Wire Line
+	5450 5950 5450 6050
+Wire Wire Line
+	4250 6050 4450 6050
+Wire Wire Line
+	4450 6050 4450 6575
+Wire Wire Line
+	4450 6575 5275 6575
+Wire Wire Line
+	5275 6575 5275 6050
+Wire Wire Line
+	5275 6050 5450 6050
+Connection ~ 5450 6050
+Wire Wire Line
+	5450 6050 5450 6150
 $EndSCHEMATC
