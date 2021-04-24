@@ -8,9 +8,9 @@ Title "Shield RS485 para MKR1_Wifi1010"
 Date "2021-03-22"
 Rev "A"
 Comp "CESE UBA"
-Comment1 "Ivan Szkrabko"
+Comment1 "Autor: Ivan Szkrabko"
 Comment2 "Creative Commons Attribution-ShareAlike 4.0 International License"
-Comment3 ""
+Comment3 "Revisor: Gaspar Santamarina"
 Comment4 ""
 $EndDescr
 $Comp
