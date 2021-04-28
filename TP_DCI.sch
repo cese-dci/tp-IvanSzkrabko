@@ -592,7 +592,7 @@ U 1 1 607D2105
 P 1200 5650
 F 0 "X2" H 1300 5600 50  0000 L CNN
 F 1 "Screw_Terminal_01x02" H 900 5800 50  0000 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 1200 5650 50  0001 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 1200 5650 50  0001 C CNN
 F 3 "~" H 1200 5650 50  0001 C CNN
 	1    1200 5650
 	-1   0    0    -1  

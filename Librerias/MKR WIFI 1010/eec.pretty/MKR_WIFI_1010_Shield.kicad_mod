@@ -1,4 +1,4 @@
-(module MKR_WIFI_1010_Shield (layer F.Cu) (tedit 607370F4)
+(module MKR_WIFI_1010_Shield (layer F.Cu) (tedit 6088CCED)
   (fp_text reference REF** (at -14.605 -8.763 180) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
@@ -33,9 +33,9 @@
   (pad 26 thru_hole circle (at -2.89 -10.16) (size 1.55 1.55) (drill 1) (layers *.Cu))
   (pad 27 thru_hole circle (at -5.43 -10.16) (size 1.55 1.55) (drill 1) (layers *.Cu))
   (pad 28 thru_hole circle (at -7.97 -10.16) (size 1.55 1.55) (drill 1) (layers *.Cu))
-  (model eec.models/Arduino_-_MKR_WIFI_1010.step
-    (at (xyz 0 0 0))
+  (model "${KIPRJMOD}/Librerias/MKR WIFI 1010/eec.models/MKR_Sockets_v1.step"
+    (offset (xyz 25 10 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 0 0 90))
   )
 )
