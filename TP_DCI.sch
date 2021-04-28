@@ -871,28 +871,6 @@ F 3 "~" H 10700 1000 50  0001 C CNN
 	1    10700 1000
 	1    0    0    -1  
 $EndComp
-$Comp
-L Mechanical:Fiducial FID3
-U 1 1 6098FB8D
-P 10700 1250
-F 0 "FID3" H 10785 1296 50  0000 L CNN
-F 1 "Fiducial" H 10785 1205 50  0000 L CNN
-F 2 "Fiducial:Fiducial_0.5mm_Mask1.5mm" H 10700 1250 50  0001 C CNN
-F 3 "~" H 10700 1250 50  0001 C CNN
-	1    10700 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:Fiducial FID4
-U 1 1 60991997
-P 10700 1500
-F 0 "FID4" H 10785 1546 50  0000 L CNN
-F 1 "Fiducial" H 10785 1455 50  0000 L CNN
-F 2 "Fiducial:Fiducial_0.5mm_Mask1.5mm" H 10700 1500 50  0001 C CNN
-F 3 "~" H 10700 1500 50  0001 C CNN
-	1    10700 1500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1950 5650 3450 5650
 Wire Wire Line
@@ -981,28 +959,6 @@ F 1 "MountingHole" H 9850 955 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.1mm" H 9750 1000 50  0001 C CNN
 F 3 "~" H 9750 1000 50  0001 C CNN
 	1    9750 1000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H3
-U 1 1 6084CC49
-P 9750 1250
-F 0 "H3" H 9850 1296 50  0000 L CNN
-F 1 "MountingHole" H 9850 1205 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.1mm" H 9750 1250 50  0001 C CNN
-F 3 "~" H 9750 1250 50  0001 C CNN
-	1    9750 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H4
-U 1 1 6084D8AE
-P 9750 1500
-F 0 "H4" H 9850 1546 50  0000 L CNN
-F 1 "MountingHole" H 9850 1455 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.1mm" H 9750 1500 50  0001 C CNN
-F 3 "~" H 9750 1500 50  0001 C CNN
-	1    9750 1500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1162,4 +1118,26 @@ Wire Wire Line
 Connection ~ 5450 6050
 Wire Wire Line
 	5450 6050 5450 6150
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 608CC8EF
+P 9750 1225
+F 0 "H3" H 9850 1271 50  0000 L CNN
+F 1 "MountingHole" H 9850 1180 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 9750 1225 50  0001 C CNN
+F 3 "~" H 9750 1225 50  0001 C CNN
+	1    9750 1225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 608CC8F5
+P 9750 1475
+F 0 "H4" H 9850 1521 50  0000 L CNN
+F 1 "MountingHole" H 9850 1430 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 9750 1475 50  0001 C CNN
+F 3 "~" H 9750 1475 50  0001 C CNN
+	1    9750 1475
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
